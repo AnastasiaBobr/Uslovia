@@ -1,11 +1,11 @@
-shotRange = float(input('range: '))
+x = float(input('Дальность выстрела: '))
 
-if shotRange > 28 and shotRange < 30:
+if x > 28 and x < 30:
     print('Попал!!')
-elif shotRange >= 30:
+elif x >= 30:
     print('Перелет!!')
-elif shotRange > 0 and shotRange <= 28:
+elif x > 0 and x <= 28:
     print('Недолет!!')
-elif shotRange <=0:
+elif x <=0:
     print('Не бей по своим!!')
 
